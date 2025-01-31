@@ -58,7 +58,7 @@ export default function IssueDetailsDialog({
   } = useFetch(updateIssue);
 
   const handleDelete = async () => {
-    if (window.confirm("Are you sure you want to delete this issue?")) {
+    if (window.confirm("Are you sure you want to delete this task?")) {
       deleteIssueFn(issue.id);
     }
   };

@@ -167,7 +167,7 @@ export default function SprintBoard({ sprints, projectId, orgId }) {
                 <div
                   {...provided.droppableProps}
                   ref={provided.innerRef}
-                  className="space-y-2"
+                  className="space-y-2 overflow-y-auto"
                 >
                   <h3 className="font-semibold mb-2 text-center">
                     {column.name}
